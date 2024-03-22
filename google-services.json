@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "105679637616",
+    "project_id": "marthapantryandmore",
+    "storage_bucket": "marthapantryandmore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105679637616:android:58c7200735e55ae42d78b5",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkl8cqYj7yMDI9JRwWmcaBpKCORUUCJ6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Martha\'s Pantry &amp; More</string>
+    <string name="title_activity_login_view">LoginView</string>
+    <string name="web_client_id">105679637616-pgpcd95aatdmnag8isjvvk61fskksvll.apps.googleusercontent.com</string>
 </resources>

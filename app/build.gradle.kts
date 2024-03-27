@@ -61,14 +61,32 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
+    implementation(platform("androidx.compose:compose-bom:2023.08.00"))
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.08.00"))
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.08.00"))
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     //Firebase
     implementation(platform("com.google.firebase:firebase-bom:32.8.0"))
+    //Firestore
+    implementation("com.google.firebase:firebase-firestore")
+    //Firebase-Auth
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.android.gms:play-services-auth:21.0.0")
+    implementation("com.google.firebase:firebase-auth:22.3.1")
+    //LifeCycle
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    //LiveData
+    implementation("androidx.compose.runtime:runtime-livedata:1.6.4")
+    //viewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+    //Icons
+    implementation("androidx.compose.material:material-icons-extended:1.6.4")
+    //NavController
+    implementation("androidx.navigation:navigation-compose:2.7.7")
 }
